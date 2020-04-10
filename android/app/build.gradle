@@ -151,7 +151,7 @@ android {
             keyPassword 'android'
         }
     }
-    buildTypes {
+    /*buildTypes {
         debug {
             signingConfig signingConfigs.debug
         }
@@ -162,7 +162,7 @@ android {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
-    }
+    }*/
 
     packagingOptions {
         pickFirst "lib/armeabi-v7a/libc++_shared.so"
